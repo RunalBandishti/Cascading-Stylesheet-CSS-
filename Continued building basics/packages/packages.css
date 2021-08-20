@@ -2,12 +2,22 @@ main{
     padding-top:32px;
 }
 
+.background{
+    background:url('../images/pexels-shawn-stutzman-1010496.jpg');
+    width:100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 .package{
     width:80%;
     margin: 16px 0;
     border:4px solid #0c0c0c;
     border-radius:10px;
     border-left: none;
+    position: relative;
+    
 }
 
 .package:hover,
@@ -25,6 +35,18 @@ main{
 
 .clearfix{
     clear: both;
+}
+
+.package-badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 15px;
+    color: white;
+    background:#ff5454;
+    padding:8px;
+    border-radius:10px;
 }
 
 .package-sub{
